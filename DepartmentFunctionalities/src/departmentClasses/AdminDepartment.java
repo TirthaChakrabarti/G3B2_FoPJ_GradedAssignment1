@@ -6,19 +6,16 @@ public class AdminDepartment extends SuperDepartment {
 
 	@Override
 	public String departmentName() {
-		name = "Admin Department";
-		return name;
+		return"Admin Department";
 	}
 	
 	@Override
 	public String getTodaysWork() {
-		work = "Complete your documents submission";
-		return work;
+		return "Complete your documents submission";
 	}
 	
 	@Override
 	public String getWorkDeadline() {
-		deadline = "Complete by EOD";
-		return deadline;
+		return "Complete by EOD";
 	}
 }

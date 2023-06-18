@@ -6,24 +6,20 @@ public class TechDepartment extends SuperDepartment{
 
 	@Override
 	public String departmentName() {
-		name = "Tech Department";
-		return name;
+		return "Tech Department";
 	}
 	
 	@Override
 	public String getTodaysWork() {
-		work = "Complete coding of module 1";
-		return work;
+		return "Complete coding of module 1";
 	}
 	
 	@Override
 	public String getWorkDeadline() {
-		deadline = "Compete by EOD";
-		return deadline;
+		return "Compete by EOD";
 	}
 	
 	public String getTechStackInformation() {
-		String stackInfo = "Core Java";
-		return stackInfo;
+		return "Core Java";
 	}
 }

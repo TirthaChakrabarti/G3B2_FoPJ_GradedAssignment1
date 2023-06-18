@@ -2,28 +2,21 @@ package superclass;
 
 public class SuperDepartment {
 	
-	protected String name;
-	protected String work;
-	protected String deadline;
-	protected String isHoliday;
+
 
 	public String departmentName() {
-		name = "Super Department";
-		return name;
+		return "Super Department";
 	}
 	
 	public String getTodaysWork() {
-		work = "No work as of now";
-		return work;
+		return "No work as of now";
 	}
 	
 	public String getWorkDeadline() {
-		deadline = "Nil";
-		return deadline;
+		return "Nil";
 	}
 	
 	public String isTodayAHoliday() {
-		isHoliday = "Today is not a Holiday";
-		return isHoliday;
+		return "Today is not a Holiday";
 	}
 }

@@ -6,25 +6,21 @@ public class HrDepartment extends SuperDepartment {
 
 	@Override
 	public String departmentName() {
-		name = "Hr Department";
-		return name;
+		return "Hr Department";
 	}
 	
 	@Override
 	public String getTodaysWork() {
-		work = "Fill today's timesheet and mark your attendance";
-		return work;
+		return "Fill today's timesheet and mark your attendance";
 	}
 	
 	@Override
 	public String getWorkDeadline() {
-		deadline = "Complete by EOD";
-		return deadline;
+		return "Complete by EOD";
 	}
 	
 	public String doActivity() {
-		String activity = "Team Launch";
-		return activity;
+		return "Team Launch";
 	}
 }
 
